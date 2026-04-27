@@ -1,0 +1,39 @@
+body {
+
+    background-color: rgba(78, 78, 248, 0.926);
+    background-image: url(marina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0 20px;
+}
+
+.spacer {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(52, 52, 54);
+}
+
+.colol {
+  
+    background-color:rgb(0, 0 ,0 , 0.5)
+    padding= 30px;
+    border: 10px;
+
+    line-height: 1.5 ;
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tolol {
+
+font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    text-align: center;
+}
