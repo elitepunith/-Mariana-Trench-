@@ -37,3 +37,28 @@ font-family: 'Times New Roman', Times, serif;
     color: aqua;
     text-align: center;
 }
+
+.rajasaab {
+    color: aqua;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+
+}
+
+.box {
+
+    flex: 1 ;
+    border: 2px solid #ccc;
+    padding: 5px;
+text-align: center;
+}
+
+.box img {
+    width: 100%;
+
+height: auto;
+}
