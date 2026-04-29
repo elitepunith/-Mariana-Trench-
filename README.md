@@ -1,6 +1,6 @@
 # Mariana-Trench
 
-This is a basic website about the Mariana trench 
+This is a basic website about the Mariana trench , this website has all the information about the mariana trench!!
 
 ### Tech stack 
 
