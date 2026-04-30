@@ -71,3 +71,10 @@ object-fit: cover;
 display: block;
 
 }
+
+a {
+
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
