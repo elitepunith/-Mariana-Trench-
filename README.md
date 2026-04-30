@@ -19,7 +19,7 @@ This is a basic website about the Mariana trench , this website has all the info
 ### What i learned from this 
 
 1. i learned how to align the pics and how to use basic java script 
-2. i also learned how to manage the files and sysntax properly !
+2. i also learned how to manage the files and syntax properly !
 
 ### Preview
 
