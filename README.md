@@ -1,6 +1,7 @@
 # Mariana-Trench
 
 This is a basic website about the Mariana trench , this website has all the information about the mariana trench!!
+also this website have collection of images about the deep sea creatures and their information !
 
 ### Tech stack 
 
