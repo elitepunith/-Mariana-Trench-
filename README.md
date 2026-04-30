@@ -21,3 +21,6 @@ This is a basic website about the Mariana trench , this website has all the info
 ![alt text](<Screenshot 2026-04-30 124235.png>)
 
 ![alt text](image-1.png)
+
+### Author
+elitepunith
