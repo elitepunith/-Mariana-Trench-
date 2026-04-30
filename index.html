@@ -1,87 +1,212 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Trench</title>
+    <link rel="icon" type="image/x-icon" href="assets/MARIANA.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="spacer">Mariana Trench</h1>
+    <h2 class="tolol">About Mariana Trench</h2>
 
-        <title> Mariana Trench </title>
-        <link rel="icon" type="image/x-icon" href="assets/MARIANA.jpg">
+    <p class="colol">The Mariana Trench is the most extreme and mysterious environment on our planet, a massive crescent-shaped chasm in the floor of the western Pacific Ocean that represents the absolute deepest point on Earth. Plunging down nearly 36,000 feet at its lowest known area, called the Challenger Deep, this trench is so profoundly deep that if you were to drop Mount Everest straight into it, the mountain's peak would still sit more than a mile entirely underwater. Down in this perpetual darkness, the conditions are incredibly hostile; the temperature hovers just a few degrees above freezing, and the hydrostatic pressure is absolutely crushing. At the bottom, that pressure is over a thousand times the standard atmospheric pressure at sea level, which is roughly equivalent to having the weight of fifty jumbo jets piled onto a single person. Yet, despite being a place completely untouched by sunlight and seemingly inhospitable to anything, the trench is far from a barren wasteland. It is actually a thriving, alien world populated by some of the most bizarre and resilient creatures we've ever discovered, from translucent, gelatinous snailfish and glowing jellyfish to microscopic organisms that survive off the chemical-rich vents dotting the ocean floor. We currently have better, more detailed maps of the surface of Mars than we do of the bottom of this immense underwater canyon, making every rare dive into its depths a true journey into the great unknown that forces us to completely rethink the absolute limits of where life can exist.</p>
         
-    </head>
+    <p class="colol">Reaching this alien world to actually see it firsthand is a logistical nightmare, which is why only a handful of humans have ever made the journey. The very first descent happened back in 1960, when two explorers crammed into a cramped, heavy steel sphere called the Trieste and sank for nearly five hours just to spend twenty minutes at the bottom. Decades later, film director James Cameron made headlines with a solo dive, and modern robotic subs continue to push the boundaries of what we can capture on camera. But even more shocking than the bizarre, glow-in-the-dark wildlife they've filmed is what else currently rests in the Challenger Deep: our own garbage. Even seven miles down, in an environment harder to reach than outer space, submersibles have recorded plastic bags and candy wrappers sitting quietly on the seafloor. It’s a sobering reality check that proves no matter how incredibly remote or hostile an environment is, it’s still deeply connected to the rest of the planet. Exploring the Mariana Trench isn't just about discovering weird new biology or testing out heavy-duty engineering; it's a stark reminder of how far our footprint actually reaches.</p>
 
-    <body>
-        <h1 class="spacer"> Mariana Trench</h1>
+    <h2 class="rajasaab">Images of deep sea creatures</h2>
 
-<h2 class="tolol">About Mariana Trench</h2>
-
-        <p class="colol">The Mariana Trench is the most extreme and mysterious environment on our planet, a massive crescent-shaped chasm in the floor of the western Pacific Ocean that represents the absolute deepest point on Earth. Plunging down nearly 36,000 feet at its lowest known area, called the Challenger Deep, this trench is so profoundly deep that if you were to drop Mount Everest straight into it, the mountain's peak would still sit more than a mile entirely underwater. Down in this perpetual darkness, the conditions are incredibly hostile; the temperature hovers just a few degrees above freezing, and the hydrostatic pressure is absolutely crushing. At the bottom, that pressure is over a thousand times the standard atmospheric pressure at sea level, which is roughly equivalent to having the weight of fifty jumbo jets piled onto a single person. Yet, despite being a place completely untouched by sunlight and seemingly inhospitable to anything, the trench is far from a barren wasteland. It is actually a thriving, alien world populated by some of the most bizarre and resilient creatures we've ever discovered, from translucent, gelatinous snailfish and glowing jellyfish to microscopic organisms that survive off the chemical-rich vents dotting the ocean floor. We currently have better, more detailed maps of the surface of Mars than we do of the bottom of this immense underwater canyon, making every rare dive into its depths a true journey into the great unknown that forces us to completely rethink the absolute limits of where life can exist.</p>
-        
-        
-      <p class="colol">Reaching this alien world to actually see it firsthand is a logistical nightmare, which is why only a handful of humans have ever made the journey. The very first descent happened back in 1960, when two explorers crammed into a cramped, heavy steel sphere called the Trieste and sank for nearly five hours just to spend twenty minutes at the bottom. Decades later, film director James Cameron made headlines with a solo dive, and modern robotic subs continue to push the boundaries of what we can capture on camera. But even more shocking than the bizarre, glow-in-the-dark wildlife they've filmed is what else currently rests in the Challenger Deep: our own garbage. Even seven miles down, in an environment harder to reach than outer space, submersibles have recorded plastic bags and candy wrappers sitting quietly on the seafloor. It’s a sobering reality check that proves no matter how incredibly remote or hostile an environment is, it’s still deeply connected to the rest of the planet. Exploring the Mariana Trench isn't just about discovering weird new biology or testing out heavy-duty engineering; it's a stark reminder of how far our footprint actually reaches.
-
-        </p>
-
-         
-        <h2 class="rajasaab">Images of deep sea creatures</h2>
-
-        <div class="image-row">
-
-
-            <div class="box"><img src="assets/Barreleye fish.png" alt="fish"></div>
-
-            <div class="box"><img src="assets/deep-sea amphipod.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/Frilled Shark 1.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/Frilled Shark.png" alt="fish"></div>
-
-            <div class="box"><img src="assets/jelly.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/bobtail squid.webp" alt="fish"></div>
-
-            <div class="box"><img src="assets/deep-sea anglerfish.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/Dumbo octopus.jpg" alt="fish"></div>
- 
-            <div class="box"><img src="assets/Ghost Shark.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/Mariana snailfish.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/sea pig.jpg" alt="fish"></div>
-
-            <div class="box"><img src="assets/groppo.jpg" alt="fish"></div>
-
-
-
+    <div class="image-row">
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Barreleye fish.png" alt="Barreleye fish">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Barreleye Fish</h2>
+                        <p>This bizarre creature has a completely transparent forehead! The two glowing green orbs inside its head are its actual eyes, which are tubular and point straight up to spot the silhouettes of prey. The two spots above its mouth are just nostrils.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="flipcard" onclick="flipCard(this)">
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/deep-sea amphipod.jpg" alt="Amphipod">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Deep-Sea Amphipod</h2>
+                        <p>These crustacean scavengers are like the vacuums of the deep ocean. While most are tiny, some deep-sea species exhibit "gigantism" and grow up to a foot long! They survive crushing pressures using special chemical compounds that protect their cells.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="flipcard-post">
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Frilled Shark 1.jpg" alt="Frilled Shark">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Frilled Shark</h2>
+                        <p>Often called a "living fossil," this deep-water shark moves more like a snake than a fish. It has a jaw lined with 300 backward-facing, trident-shaped teeth arranged in 25 rows, making it virtually impossible for its prey to escape once bitten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Frilled Shark.png" alt="Frilled Shark">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Deep-Sea Jaws</h2>
+                        <p>Because meals are so incredibly rare in the deep ocean, many deep-sea predators have evolved massive jaws and terrifying, needle-like teeth. These exaggerated features ensure that when they finally do catch a meal, there is zero chance of it slipping away.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="flipcard-f">
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/jelly.jpg" alt="Jellyfish">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Deep-Sea Jellyfish</h2>
+                        <p>Looking like a tiny, glowing UFO, this beautiful jellyfish spends its entire life floating in the deep water column. Its bright, bioluminescent colors are thought to act as a "burglar alarm" to startle predators or attract larger animals to eat whatever is attacking!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <img src="assets/Barreleye fish.png" alt="flipcard-front">
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/bobtail squid.webp" alt="Bobtail squid">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Deep Ocean Cleanup</h2>
+                        <p>Think of these bright deep-sea critters as the deep ocean's ultimate cleanup crew! They survive the intense pressure of the abyss using special chemical shields in their bodies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <div class="tap">Click to Flip</div>
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/deep-sea anglerfish.jpg" alt="Anglerfish">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Humpback Anglerfish</h2>
+                        <p>Only the females look this intimidating! They feature a built-in fishing rod on their heads holding a glowing lure. The light actually comes from bioluminescent bacteria living inside the lure, which perfectly attracts curious prey in the pitch-black water.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Dumbo octopus.jpg" alt="Dumbo octopus">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Dumbo Octopus</h2>
+                        <p>Named after Disney’s famous flying elephant, this adorable cephalopod uses its large, ear-like fins to gracefully "fly" through the dark water. They are the deepest-living of all known octopuses, capable of surviving at crushing depths of up to 13,000 feet!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Ghost Shark.jpg" alt="Ghost Shark">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Ghost Shark</h2>
+                        <p>Older than the dinosaurs, Ghost Sharks are deep-water cousins to modern sharks and rays. The strange "stitches" running across their heads are highly sensitive organs that detect the tiny electrical pulses made by their hidden prey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/Mariana snailfish.jpg" alt="Mariana snailfish">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Abyssal Travelers</h2>
+                        <p>Many deep-sea creatures are surprisingly social! They are often found traveling in herds of hundreds across the abyssal plain. You will almost always find them facing the exact same direction, pointing themselves into the ocean current to catch freshly falling food.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/sea pig.jpg" alt="Sea pig">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Sea Pig</h2>
+                        <p>Despite the name, this isn't a mammal—it’s a deep-water sea cucumber! Those little pink "legs" are actually water-filled tubes they use to march across the ocean floor, vacuuming up tasty organic mud and sunken debris.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="flipcard" onclick="flipCard(this)">
+                <div class="flipcard-post">
+                    <div class="flipcard-f">
+                        <img src="assets/groppo.jpg" alt="Groppo">
+                        <div class="tap">Click to Flip</div>
+                    </div>
+                    <div class="flipcard-b">
+                        <h2>Twilight Zone Fish</h2>
+                        <p>This neon beauty proves the deep sea isn't just gray and black. Found in the ocean's shadowy "Twilight Zone," its vibrant colors act as camouflage. Because red light doesn't penetrate that deep, these bright colors fade to dark shadows in their natural habitat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="flipcard-b">
 
-      <h2>Postcard Back</h2>
+    <a href="https://en.wikipedia.org/wiki/Mariana_Trench" target="_blank">For more information visit wikipedia!</a>
 
-      <p>Your message goes here!</p>
+    <script src="script.js"></script>
+</body>
 
-    </div>
+<audio id="ocean-audio" loop>
+        <source src="assets/deep-ocean.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-toggle" onclick="toggleMusic()">🔊 Play Music</button>
 
-    </div>
-
-     </div>
-
-
- <a href="https://en.wikipedia.org/wiki/Mariana_Trench" target="_blank">For more information visit wikipedia!</a>
-
-
-    </body>
 </html>

@@ -1,7 +1,6 @@
 body {
-
     background-color: rgba(78, 78, 248, 0.926);
-    background-image: url(marina.jpg);
+    background-image: url('marina.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -10,19 +9,16 @@ body {
 }
 
 .spacer {
-
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: rgb(52, 52, 54);
 }
 
 .colol {
-  
-    background-color:rgb(0, 0 ,0 , 0.5)
-    padding= 30px;
-    border: 10px;
-
-    line-height: 1.5 ;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 1.5;
     margin-bottom: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
@@ -31,14 +27,8 @@ body {
     margin-right: auto;
 }
 
-.tolol {
-
-font-family: 'Times New Roman', Times, serif;
-    color: aqua;
-    text-align: center;
-}
-
-.rajasaab {
+.tolol, .rajasaab {
+    font-family: 'Times New Roman', Times, serif;
     color: aqua;
     text-align: center;
 }
@@ -48,47 +38,107 @@ font-family: 'Times New Roman', Times, serif;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
 }
 
 .box {
-
-    flex:  0 1 calc(33.333% - 20px);
+    flex: 0 1 calc(33.333% - 20px);
     border: 2px solid #ccc;
     padding: 10px;
-text-align: center;
-background-color: rgb(0, 0 ,0 , 0.3);
-box-sizing: border-box;
-
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 
 .box img {
-
-width: 100%;
-height: 200px;
-
-object-fit: cover;
-display: block;
-
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
 
 a {
-
     text-decoration: none;
     color: aliceblue;
     text-align: center;
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.flipcard {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flipcard-post {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
 }
 
 .flipcard-post.is-flipped {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flipcard-f, .flipcard-b {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flipcard-f img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flipcard-b {
+    background-color: #333;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tap {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.5);
-  font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+#music-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+#music-toggle:hover {
+    background-color: aqua;
+    color: black;
 }
