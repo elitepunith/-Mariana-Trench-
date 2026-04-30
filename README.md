@@ -16,6 +16,11 @@ This is a basic website about the Mariana trench , this website has all the info
 
 3. This website also have a music play button , so you can read while lisenting ocean music ! 
 
+### What i learned from this 
+
+1. i learned how to align the pics and how to use basic java script 
+2. i also learned how to manage the files and sysntax properly !
+
 ### Preview
 
 ![alt text](<Screenshot 2026-04-30 124235.png>)
