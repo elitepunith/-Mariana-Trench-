@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="ocean-audio" loop>
+        <source src="assets/ocean.mp3" type="audio/mpeg">
+    </audio>
+
     <h1 class="spacer">Mariana Trench</h1>
     <h2 class="tolol">About Mariana Trench</h2>
 
@@ -201,12 +205,9 @@
 
     <a href="https://en.wikipedia.org/wiki/Mariana_Trench" target="_blank">For more information visit wikipedia!</a>
 
+    <button id="goup" onclick="goTop()">⬆️</button>
+    <button id="music-toggle" onclick="toggleMusic()">🔊</button>
+
     <script src="script.js"></script>
 </body>
-
-<audio id="ocean-audio" loop>
-        <source src="assets/deep-ocean.mp3" type="audio/mpeg">
-    </audio>
-    <button id="music-toggle" onclick="toggleMusic()">🔊 Play Music</button>
-
 </html>
