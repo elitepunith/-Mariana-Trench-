@@ -23,10 +23,9 @@ also this website have collection of images about the deep sea creatures and the
 2. i also learned how to manage the files and syntax properly !
 
 ### Preview
+![alt text](<Screenshot 2026-05-03 022651.png>)
 
-![alt text](<Screenshot 2026-04-30 124235.png>)
-
-![alt text](image-1.png)
+![alt text](<Screenshot 2026-05-03 022712.png>)
 
 ### Author
 elitepunith
